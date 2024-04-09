@@ -1,0 +1,96 @@
+body{
+    background-color: hsl(0, 0%, 100%);
+}
+.display_product{
+  padding: 0 200px 200px 200px;
+  max-height: 100vh;
+}
+.display_product table {
+    width: 100%;
+    text-align: center;
+  }
+  .display_product table thead th{
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    background-color: #ED6436;
+    color: rgb(255, 255, 255);
+  }
+  td {
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #072227;
+    border: 1px solid gray;
+    text-transform: uppercase;
+  }
+  .empty_text{
+    background-color: #ED6436 ;
+    padding: 2.5rem 2rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+  }
+  .delete_product_btn, .update_product_btn{
+    text-align: center;
+    color: red;
+    font-size: 1.7rem;
+    padding: 0 1rem;
+    cursor: pointer;
+  }
+  .update_product_btn {
+    text-align: center;
+    height: 70%;
+  }
+  .shopping_cart{
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  .shopping_cart .heading{
+    text-align: center;
+  }
+  .shopping_cart table{
+    
+    text-align: center;
+    width: 100%;
+  }
+  .shopping_cart table thead{
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: white;
+    background-color: hsl(15, 84%, 57%); 
+  }
+  .table_bottom{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0 3rem 0;
+  }
+   .bottom_btn {
+     color: white;
+     background-color: hsl(15, 84%, 57%);
+     text-decoration: none;
+     padding: 15px;
+     border-radius: 40px;
+     font-weight: bold;
+     font-size: 17px;
+     
+   }
+   .delete_all_btn{
+     background-color: hsl(15, 84%, 57%);
+     color: white;
+     text-decoration: none;
+     padding: 15px;
+     border-radius: 40px;
+     font-weight: bold;
+     font-size: 17px;
+   }
+  
+
+

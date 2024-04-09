@@ -1,0 +1,20 @@
+body{
+    background-color: hsl(0, 0%, 100%);
+}
+#form{
+    background-color: whitesmoke;
+    width: 25%;
+    margin: 120px auto;
+    padding: 50px ;
+    box-shadow: 10px 10px 5px #d88333;;
+    border-radius: 6px;
+
+}
+#btn{
+    color: white;
+    background-color: #ED6436;;
+    padding: 10px;
+    font-size: large;
+    border-radius: 10px;
+    border-color: #ff954e;;
+}
